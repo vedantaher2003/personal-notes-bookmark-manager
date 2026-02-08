@@ -1,0 +1,2 @@
+import { protect } from "../middlewares/auth.js";
+router.use(protect);
