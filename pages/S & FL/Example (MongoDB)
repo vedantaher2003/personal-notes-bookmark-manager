@@ -1,0 +1,11 @@
+const { q, tags } = req.query;
+
+const query = {
+  ...(q && {
+    $or: [
+      { title: new RegExp(q, "i") },
+      { content: new RegExp(q, "i") }
+    ]
+  }),
+  ...(tags && { tags: { $in: tags.split(",") } })
+};
