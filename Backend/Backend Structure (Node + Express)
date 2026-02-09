@@ -1,0 +1,17 @@
+backend/
+ ┣ controllers/
+ ┃ ┣ note.controller.js
+ ┃ ┗ bookmark.controller.js
+ ┣ routes/
+ ┃ ┣ note.routes.js
+ ┃ ┗ bookmark.routes.js
+ ┣ models/
+ ┃ ┣ Note.js
+ ┃ ┗ Bookmark.js
+ ┣ middlewares/
+ ┃ ┣ errorHandler.js
+ ┃ ┗ auth.js (bonus)
+ ┣ utils/
+ ┃ ┗ fetchTitle.js (bonus)
+ ┣ app.js
+ ┗ server.js
