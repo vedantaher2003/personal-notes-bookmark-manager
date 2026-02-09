@@ -1,0 +1,11 @@
+frontend/
+ ┣ pages/
+ ┃ ┣ notes.js
+ ┃ ┗ bookmarks.js
+ ┣ components/
+ ┃ ┣ NoteCard.jsx
+ ┃ ┣ BookmarkCard.jsx
+ ┃ ┗ SearchBar.jsx
+ ┣ services/
+ ┃ ┗ api.js
+ ┗ styles/
