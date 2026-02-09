@@ -1,0 +1,9 @@
+{
+  title: String,
+  content: String,
+  tags: [String],
+  favorite: Boolean,
+  userId: ObjectId, // bonus auth
+  createdAt,
+  updatedAt
+}
