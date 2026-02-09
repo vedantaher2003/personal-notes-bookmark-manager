@@ -1,0 +1,10 @@
+{
+  title: String,
+  url: String,
+  description: String,
+  tags: [String],
+  favorite: Boolean,
+  userId: ObjectId,
+  createdAt,
+  updatedAt
+}
